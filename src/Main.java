@@ -24,20 +24,21 @@ public class Main {
         }
 
         // SUM & MULTIPLE
-        boolean multiploDe5 = false;
         int sumatoria = 0;
+        double promedio = 0;
+        boolean isMultiDe5 = false;
+
         for (int i = 0; i < arreglo.length ; i++) {
             sumatoria += arreglo[i];
+            promedio = (double) sumatoria / arreglo.length;
             if(arreglo[i]%5 == 0){
-                multiploDe5 = true;
+                isMultiDe5 = true;
             }
         }
 
         // AVERAGE
-        double promedio = (double) sumatoria / n;
-
         System.out.println("Sumatoria de todos los elementos: " +sumatoria);
         System.out.println("Promedio de todos los elementos: " +promedio);
-        System.out.println("¿Se ingresó algun multiplo de 5? " +multiploDe5);
+        System.out.println("¿Se ingresó algun multiplo de 5? " + isMultiDe5);
     }
 }
