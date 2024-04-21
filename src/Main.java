@@ -1,14 +1,15 @@
+/* CARGAR UN ARREGLO DE NÚMEROS ENTEROS POR TECLADO.
+ * EL USUARIO DEBE INDICAR INICIALMENTE LA CANTIDAD DE NUMEROS A CARGAR.
+ * CALCULAR Y MOSTRAR:
+ *     - SUMATORIA DE TODOS LOS NUMEROS.
+ *     - PROMEDIO DE TODOS
+ *     - SI SE INGRESÓ ALGÚN MÚLTIPLO DE 5.
+ */
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /* CARGAR UN ARREGLO DE NÚMEROS ENTEROS POR TECLADO.
-         EL USUARIO DEBE INDICAR INCIIALMENTE LA CANTIDAD DE NUMEROS A CARGAR.
-         CALCULAR Y MOSTRAR:
-            - SUMATORIA DE TODOS LOS NUMEROS.
-            - PROMEDIO DE TODOS
-            - SI SE INGRESÓ ALGÚN MÚLTIPLO DE 5.
-        */
 
         System.out.println("Indique el tamaño del arreglo...");
         Scanner sc = new Scanner(System.in);
